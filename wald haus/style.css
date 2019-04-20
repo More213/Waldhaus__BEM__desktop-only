@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style:none;
+}
+body{
+    min-width: 1165px;
+    max-width: 2560px;
+    font-family: 'gilroymedium';
+    font-size: 14px;
+}
+a{
+    color: #000;
+}
+a:active{
+    color: #000ж
+}
+body,
+.body{
+overflow-x:hidden !important;
+}
+.backgraund img{
+    width:100% ;
+
+    z-index: -1;
+    position: absolute;
+    top: 0
+}
+.navbar{
+    max-width: 1165px;
+    height: 156px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar__logo{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 400px;
+    height: 156px;
+    align-items: center;
+    font-size: 18px;
+}
+.navbar__logo .line{
+    height: 37px;
+    width: 1px;
+    background: #f7cd4b;
+}
+.navbar__navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+    width: 600px;
+}
+.navbar__navigation__menu{
+    width: 600px;
+    height: 64px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+.navbar__navigation__menu li{
+    text-transform: uppercase;
+    border-bottom:4px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.navbar__navigation__menu li:hover{
+    top: 11px;
+    position: relative;
+    border-bottom: 4px solid #aae64e;
+    transition: border-bottom 0.31s ease-out;
+    padding-bottom: 22px;
+   
+}
+.navbar__navigation__menu .line{
+    width: 1px;
+    height: 14px;
+    background: rgb(205, 205, 205);
+}
+.navbar__navigation__contact{
+    width: 600px;
+    height: 64px;
+    font-size: 18px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center
+}
+.navbar__navigation__contact li p{
+    float: right;
+    margin-top: 7px;
+}
+.navbar__navigation__contact li a{
+    border-bottom: 1px solid #000;
+    font-family: gilroybold
+}
+.wraper{
+    width: 1165px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wraper__country{
+    width: 570px;
+}
+.wraper__country h1{
+    font-size: 33px;
+}
+.wraper__country h1 span{
+    color: #fdb042
+}
+.wraper__country__list li p{
+    width:400px; 
+}
+
+
