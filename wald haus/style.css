@@ -9,8 +9,9 @@ body{
     min-width: 768px;
     max-width: 2560px;
     font-family: 'gilroymedium';
-    font-size: 14px;
+    font-size: 18px;
 }
+
 a{
     color: #000;
 }
@@ -18,6 +19,9 @@ a:active{
     color: #000;
 }
 body,
+.body{
+overflow-x:hidden !important;
+}
 .body{
 overflow-x:hidden !important;
 }
@@ -131,6 +135,7 @@ overflow-x:hidden !important;
     padding-bottom:100px ;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 200px;
 }
 .wraper__country{
     display: flex;
@@ -181,7 +186,7 @@ overflow-x:hidden !important;
     border-radius:50px ;
     background: #fdb042;
     border: 0px;
-    background-color: rgb(253, 176, 66);
+    background-color: #fdb044;
     box-shadow: 0px 24px 76px 0px rgba(0, 0, 0, 0.18);
 }
 .button:active{
@@ -252,4 +257,234 @@ overflow-x:hidden !important;
     height:468px;
     z-index: -1;
 }}
+.wraperhuse{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 1165px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    font-size: 20px;
+    font-family: 'gilroybold'
+}
+.wraperhuse__sheath{
+    width:800px; 
+    margin-left: auto;
+    margin-right: auto;
+    min-height:100px;
+    max-height: 700px
+}
+.mnogoygols{
+    position:absolute;
+    width:100%;
+    z-index: 1;
+    top: 1170px;
+    height:700px
+}
+.mnogoygol{
+    z-index: 1;
+    width: 76px;
+    max-height:76;
+}
+.wraperhuse__stuff__items,
+.wraperhuse__stuff__list{
+    position:relative;
 
+}
+.list_one{
+    bottom: 130px;
+    width: 300px;
+    right: 180px
+}
+.list_one .mnogoygol{
+    position: absolute;
+    left: 360px;
+    bottom: -90px;
+}
+.list_two{
+    width: 240px;
+    bottom: 30px;
+    right: 180px
+}
+.list_two .mnogoygol{
+    position: absolute;
+    left: 462px;
+    bottom: 125px;
+}
+.list_three{
+    width: 240px; 
+    bottom: 0px;
+    right: 100px
+}
+.list_three .mnogoygol{
+    position: absolute;
+    left: 390px;
+    bottom: 240px;
+}
+.list_four{
+     bottom:60px;
+    left: 210px
+}
+.list_four .mnogoygol{
+    position: relative;
+    left: 150px;
+    bottom: 260px;
+}
+.list_five{
+    bottom: 830px;
+    left:600px ;
+}
+.list_five .mnogoygol{
+    position: relative;
+    right: 150px;
+    top: 120px;
+}
+.list_six{
+    bottom:860px;
+    left:780px ;
+}
+.list_six .mnogoygol{
+    position: relative;
+    right: 350px;
+    bottom:45px;
+}
+.list_seven{
+    bottom:870px;
+    left:780px ;
+}
+.list_seven .mnogoygol{
+    position: relative;
+    right:275px ;
+    bottom: 130px;
+}
+.mnogoygol:nth-child(2){
+    
+}
+.mnogoygol:nth-child(3){
+    
+}
+.mnogoygol:nth-child(4){
+    
+}
+.mnogoygol:nth-child(5){
+    
+}
+.mnogoygol:nth-child(6){
+    
+}
+.mnogoygol:nth-child(7){
+
+}
+.mnogoygol img:nth-child(1){
+    z-index: 1;
+    
+}
+.mnogoygol img:nth-child(2){
+    z-index: 2;
+    position: absolute;
+    bottom:24px;
+    left: 17px
+}
+.mnogoygol img:nth-child(3){
+    z-index: 1;
+    position:absolute;
+    bottom:24px;
+    left: 17px
+}
+.mnogoygol img:nth-child(4){
+    z-index: 3;
+    position:absolute;
+    bottom:37px;
+    left: 27px;
+    
+}
+.mnogoygol:hover img:nth-child(2){
+    display: none
+}
+.mnogoygol:hover img:nth-child(3){
+    z-index: 1;
+    position:absolute;
+    bottom:px;
+    left: 17px
+}
+.mnogoygol:hover img:nth-child(4){
+    z-index: 3;
+    position:absolute;
+
+    right: 19px;
+}
+.wraperhuse__button{
+    display: none;//не забыть поставить 
+    width: 470px;
+    position:relative;
+    top: 0px;
+    text-align: center;
+}
+.wraperhuse__button .plus{
+    color: #fdb044
+}
+.roof{
+    display: flex;
+    flex-direction: column;
+}
+.roof img{
+    max-width:200px;
+}
+.roof p{
+    width: 240px
+}
+.roof span{
+    font-family: 'gilroybold';
+    color: #fcbd67;
+}
+.keeping{
+    display: flex;
+    flex-direction: column;
+}
+.window img,
+.keeping img{
+    width: 120px
+}
+.keeping p{
+    width: 230px
+}
+.window{
+    width: 240px; 
+    display: flex;
+    flex-direction: column
+}
+.window p{
+    width: 200px;
+}
+.membrane{
+    width:410px;
+    display: flex;
+    flex-direction:row;
+}
+.membrane img{
+    width: 136px;
+}
+.lumber{
+    width: 400px;
+    display: flex;
+    flex-direction:row;
+}
+.lumber img{
+    width: 110px;
+}
+.insulation{
+    width: 210px;
+    display: flex;
+    flex-direction:column;
+}
+.foundation img,
+.insulation img{
+    width:150px;
+}
+.foundation{
+    width: 230px;
+    display: flex;
+    flex-direction:column;
+}
