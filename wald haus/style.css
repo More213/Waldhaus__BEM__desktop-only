@@ -5,7 +5,8 @@
     list-style:none;
 }
 body{
-    min-width: 1165px;
+    height: auto;
+    min-width: 768px;
     max-width: 2560px;
     font-family: 'gilroymedium';
     font-size: 14px;
@@ -14,19 +15,36 @@ a{
     color: #000;
 }
 a:active{
-    color: #000ж
+    color: #000;
 }
 body,
 .body{
 overflow-x:hidden !important;
 }
 .backgraund img{
-    width:100% ;
-
+    width:100%;
     z-index: -1;
     position: absolute;
-    top: 0
+    top: 0;
+    background-size: cover;
 }
+@media only screen and (max-width:1440px){
+.backgraund img{
+    height:auto;   
+    width:1440px;
+    min-width:1024px ;
+    overflow:hidden; 
+    background-size: cover;
+}}
+
+@media only screen and (max-width:1024px){
+.backgraund img{
+    height:auto;   
+    width:1024px;
+    min-width:768px ;
+    overflow:hidden; 
+    background-size:contain;
+}}
 .navbar{
     max-width: 1165px;
     height: 156px;
@@ -57,6 +75,9 @@ overflow-x:hidden !important;
     flex-direction: column;
     justify-content: flex-start
     width: 600px;
+}
+.navbar__navigation__mobil [type="checkbox"]{
+     display: none;
 }
 .navbar__navigation__menu{
     width: 600px;
@@ -188,13 +209,47 @@ overflow-x:hidden !important;
     left: 40px;
     font-size: 18px;
 }
+.wraper__country .plus{
+    margin-left:30px;
+    margin-top: 20px;
+}
 .hausimg{
     position: relative;
-    width:100% ;
-    height:auto;
+    right:140px ;
     bottom: 50px;
-    right:150px ;
+    max-width: 100%;
     z-index: -1;
-    flex-grow: 2;
+    background-size:content;
 }
+@media only screen and (max-width:2000px){
+.hausimg{
+    position: relative;
+    right:70px ;
+    bottom: 50px;
+    max-width:80%;
+    height:624px ;
+    z-index: -1;
+    background-size:content;
+
+}}
+@media only screen and (max-width:1724px){
+.hausimg{
+    position: relative;
+    right:60px ;
+    bottom: 50px;
+    height:546px;
+    max-width:70%;
+    z-index: -1;
+    background-size:contain;
+
+}}
+@media only screen and (max-width:1420px){
+.hausimg{
+    position: relative;
+    right:50px ;
+    bottom: 0px;
+    max-width:60%;
+    height:468px;
+    z-index: -1;
+}}
 

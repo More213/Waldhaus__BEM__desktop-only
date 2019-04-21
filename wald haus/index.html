@@ -5,6 +5,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="style-mobil.css" media= "only screen and (max-device-width:1024px)" type="text/css"/>
+  
 </head>
 <body>
    <div class="body">
@@ -14,6 +16,9 @@
                     <div><a><img src="images/icons/logo.png" alt="логотип"></a></div><div class="line"></div>    
                     <div><p>Строим деревянные дома<br> и бани с 2002 года</p></div>
                 </div>
+                <div class="navbar__navigation__mobil">
+                <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+                    <label for="menu" class="toggleMenu"></label>
                 <div class="navbar__navigation">
                     <ul class="navbar__navigation__menu">
                         <li><a href="">подход</a></li>
@@ -37,7 +42,7 @@
                         </li>
                         <li><a href="">Получить расчет</a></li>
                     </ul>
-                </div>
+                </div></div>
             </nav>
             <div class="backgraund">
                 <img src="images/backgr&content/sky.png" alt="">
@@ -71,8 +76,22 @@
                     <div><img src="images/icons/iconbutton.png" alt=""></div>
                     <p>Получить расчет стоимости за 20 минут</p>
                 </button>
+                <div class="plus"><p>+ каталог проектов Wald Hause с ценами</p>
+                <p>+ bскидку 5% на строительство дома</p></div>
             </div> 
-            <img src="images/backgr&content/hasehome1.png" alt="" class="hausimg">
+            <img src="images/backgr&content/hasehome1.png" class="hausimg" alt="" >
+        </section>
+        <section class="wraper">
+            
+            <div>
+               <p>У вас уже есть готовый проект? Пришлите его нам,и получите расчет стоимости уже через 20 минут!</p>
+                <button class="button">
+                    <div><img src="images/icons/iconbutton.png" alt=""></div>
+                    <p>Получить расчет стоимости за 20 минут</p>
+                </button>
+                <div class="plus"><p>+ каталог проектов Wald Hause с ценами</p>
+                <p>+ bскидку 5% на строительство дома</p></div>
+            </div>
         </section>
     </div>
 </body>
