@@ -22,9 +22,7 @@ body,
 .body{
 overflow-x:hidden !important;
 }
-.body{
-overflow-x:hidden !important;
-}
+
 .backgraund img{
     width:100%;
     z-index: -1;
@@ -135,7 +133,7 @@ overflow-x:hidden !important;
     padding-bottom:100px ;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .wraper__country{
     display: flex;
@@ -222,7 +220,7 @@ overflow-x:hidden !important;
     position: relative;
     right:140px ;
     bottom: 50px;
-    max-width: 100%;
+    min-width: 100%;
     z-index: -1;
     background-size:content;
 }
@@ -231,7 +229,7 @@ overflow-x:hidden !important;
     position: relative;
     right:70px ;
     bottom: 50px;
-    max-width:80%;
+    min-width:80%;
     height:624px ;
     z-index: -1;
     background-size:content;
@@ -243,7 +241,7 @@ overflow-x:hidden !important;
     right:60px ;
     bottom: 50px;
     height:546px;
-    max-width:70%;
+    min-width:70%;
     z-index: -1;
     background-size:contain;
 
@@ -253,17 +251,18 @@ overflow-x:hidden !important;
     position: relative;
     right:50px ;
     bottom: 0px;
-    max-width:60%;
+    min-width:60%;
     height:468px;
     z-index: -1;
 }}
 .wraperhuse{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     width: 1165px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px
 }
 h3{
     font-size: 20px;
@@ -271,22 +270,44 @@ h3{
 }
 .wraperhuse__sheath{
     width:800px; 
-    margin-left: auto;
-    margin-right: auto;
     min-height:100px;
-    max-height: 700px
+    max-height: 700px;
+    margin-bottom: 100px
 }
 .mnogoygols{
     position:absolute;
     width:100%;
     z-index: 1;
-    top: 1170px;
-    height:700px
+    
+    top:1070px;
 }
-.mnogoygol{
+@media only screen and (min-width:1724px){
+.mnogoygols{
+    position:absolute;
+    width:100%;
     z-index: 1;
+    top:1135px;
+}}
+@media only screen and (min-width:2000px){
+.mnogoygols{
+    position:absolute;
+    width:100%;
+    z-index: 1;
+    top:1295px;
+}}
+.mnogoygol{
+    z-index: 2;
     width: 76px;
     max-height:76;
+}
+.list_one .mnogoygol .line__mnoygol{
+    background: url(images/icons/line-one.png) no-repeat;
+    z-index:-1;
+    width: 114px;
+    height: 113px;
+    position: absolute;
+    right: 50px;
+    bottom:60px
 }
 .wraperhuse__stuff__items,
 .wraperhuse__stuff__list{
@@ -303,6 +324,15 @@ h3{
     left: 360px;
     bottom: -90px;
 }
+.list_one .mnogoygol .line__mnoygol{
+    background: url(images/icons/line-one.png) no-repeat;
+    z-index:-1;
+    width: 114px;
+    height: 113px;
+    position: absolute;
+    right: 50px;
+    bottom:60px
+}
 .list_two{
     width: 240px;
     bottom: 30px;
@@ -312,6 +342,15 @@ h3{
     position: absolute;
     left: 462px;
     bottom: 125px;
+}
+.list_two .mnogoygol .line__mnoygol{
+    background: url(images/icons/line-two.png) no-repeat;
+    z-index:-1;
+    width: 248px;
+    height:54px;
+    position: absolute;
+    right: 50px;
+    bottom:-10px;
 }
 .list_three{
     width: 240px; 
@@ -323,6 +362,15 @@ h3{
     left: 390px;
     bottom: 240px;
 }
+.list_three .mnogoygol .line__mnoygol{
+    background: url(images/icons/line-three.png) no-repeat;
+    z-index:-1;
+    width:225px;
+    height:140px;
+    position: absolute;
+    right: 50px;
+    top:30px
+}
 .list_four{
      bottom:60px;
     left: 210px
@@ -331,6 +379,15 @@ h3{
     position: relative;
     left: 150px;
     bottom: 260px;
+}
+.list_four .mnogoygol .line__mnoygol{
+    background: url(images/icons/line-four.png) no-repeat;
+    z-index:-1;
+    width:12px;
+    height:112px;
+    position: absolute;
+    left: 33px;
+    top:60px
 }
 .list_five{
     bottom: 830px;
@@ -341,6 +398,15 @@ h3{
     right: 150px;
     top: 120px;
 }
+.list_five .mnogoygol .line__mnoygol{
+    background: url(images/icons/line-five.png) no-repeat;
+    z-index:-1;
+    width:90px;
+    height:177px;
+    position: absolute;
+    left: 40px;
+    bottom:60px
+}
 .list_six{
     bottom:860px;
     left:780px ;
@@ -350,6 +416,15 @@ h3{
     right: 350px;
     bottom:45px;
 }
+.list_six .mnogoygol .line__mnoygol{
+    background: url(images/icons/line-six.png) no-repeat;
+    z-index:-1;
+    width:317px;
+    height:260px;
+    position: absolute;
+    left: 20px;
+    bottom:25px
+}
 .list_seven{
     bottom:870px;
     left:780px ;
@@ -358,6 +433,15 @@ h3{
     position: relative;
     right:275px ;
     bottom: 130px;
+}
+.list_seven .mnogoygol .line__mnoygol{
+    background: url(images/icons/line-seven.png) no-repeat;
+    z-index:-1;
+    width:255px;
+    height:65px;
+    position: absolute;
+    left: 15px;
+    bottom:50px
 }
 .mnogoygol:nth-child(2){
     
@@ -416,7 +500,7 @@ h3{
     right: 19px;
 }
 .wraperhuse__button{
-    display: none;//не забыть поставить 
+
     width: 470px;
     position:relative;
     top: 0px;
