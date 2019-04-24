@@ -22,7 +22,9 @@ body,
 .body{
 overflow-x:hidden !important;
 }
-
+.body{
+overflow-y:hidden !important;
+}
 .backgraund img{
     width:100%;
     z-index: -1;
@@ -115,6 +117,14 @@ overflow-x:hidden !important;
     padding-bottom: 22px;
    
 }
+#act123324{
+    border-bottom: 4px solid #aae64e;
+    top: 11px;
+    position: relative;
+    border-bottom: 4px solid #aae64e;
+    
+    padding-bottom: 22px;
+}
 .navbar__navigation__menu .line{
     width: 1px;
     height: 14px;
@@ -142,7 +152,7 @@ overflow-x:hidden !important;
     height: auto;
     display: flex;
     flex-direction: row;
-    padding-bottom:100px ;
+    
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -187,6 +197,8 @@ overflow-x:hidden !important;
     position: relative;
     bottom: 135px;
 }
+.buttonthree,
+.buttontwo,
 .button{
     display: flex;
     flex-direction: row;
@@ -199,14 +211,37 @@ overflow-x:hidden !important;
     background-color: #fdb044;
     box-shadow: 0px 24px 76px 0px rgba(0, 0, 0, 0.18);
 }
+.wraperhuse__button{
+    width: 470px;
+    position:relative;
+    text-align: center;
+    top: 100px;
+    z-index: 2
+} 
+.buttontwo{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.wraperhuse__test__button{
+    width: 400px;
+}
+.buttonthree{
+    width: 400px;
+    margin-bottom: 15px
+}
+.buttonthree:active,
+.buttontwo:active,
 .button:active{
-    
+    background: #9ce926;
     box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.18);
 }
+.buttonthree:focus,
+.buttontwo:focus,
 .button:focus{
     outline: none;
-
 }
+.buttonthree div,
+.buttontwo div,
 .button div{
     width: 50px;
     background: #fff;
@@ -215,15 +250,31 @@ overflow-x:hidden !important;
     left: 20px;
     border-radius: 50px;
 }
+
+.buttontwo img,
 .button img{
     position: relative;
     top: 5px
 }
+
+.buttonthree img{
+    position: relative;
+    top: 5px
+}
+
+.buttontwo p,
 .button p{
     position: relative;
     left: 40px;
     font-size: 18px;
 }
+
+.buttonthree p{
+    position: relative;
+    left: 45px;
+    font-size: 18px;
+}
+
 .wraper__country .plus{
     margin-left:30px;
     margin-top: 20px;
@@ -241,13 +292,24 @@ overflow-x:hidden !important;
     position: relative;
     right:70px ;
     bottom: 50px;
-    min-width:80%;
+    min-width:90%;
     height:624px ;
     z-index: -1;
     background-size:content;
 
 }}
 @media only screen and (max-width:1724px){
+.hausimg{
+    position: relative;
+    right:60px ;
+    bottom: 50px;
+    height:546px;
+    min-width:70%;
+    z-index: -1;
+    background-size:contain;
+
+}}
+@media only screen and (max-width:1801px){
 .hausimg{
     position: relative;
     right:60px ;
@@ -297,6 +359,10 @@ h3{
     max-height: 700px;
     margin-bottom: 100px
 }
+.heusehome2{
+    position:relative;
+    top: 100px
+}
 .mnogoygols{
     position:absolute;
     width:100%;
@@ -306,18 +372,25 @@ h3{
 }
 @media only screen and (min-width:1724px){
 .mnogoygols{
-    position:absolute;
-    width:100%;
-    z-index: 1;
+
+    top:1140px;
+}}
+@media only screen and (min-width:1550px){
+.mnogoygols{
+
     top:1135px;
 }}
 @media only screen and (min-width:2000px){
 .mnogoygols{
-    position:absolute;
-    width:100%;
-    z-index: 1;
+
     top:1295px;
 }}
+@media only screen and (max-width:1552px){
+.mnogoygols{
+ 
+    top:1145px;
+}}
+
 .mnogoygol{
     z-index: 2;
     width: 76px;
@@ -466,28 +539,7 @@ h3{
     left: 15px;
     bottom:50px
 }
-.mnogoygol:nth-child(2){
-    
-}
-.mnogoygol:nth-child(3){
-    
-}
-.mnogoygol:nth-child(4){
-    
-}
-.mnogoygol:nth-child(5){
-    
-}
-.mnogoygol:nth-child(6){
-    
-}
-.mnogoygol:nth-child(7){
 
-}
-.mnogoygol img:nth-child(1){
-    z-index: 1;
-    
-}
 .mnogoygol img:nth-child(2){
     z-index: 2;
     position: absolute;
@@ -513,7 +565,6 @@ h3{
 .mnogoygol:hover img:nth-child(3){
     z-index: 1;
     position:absolute;
-    bottom:px;
     left: 17px
 }
 .mnogoygol:hover img:nth-child(4){
@@ -522,16 +573,7 @@ h3{
 
     right: 19px;
 }
-.wraperhuse__button{
 
-    width: 470px;
-    position:relative;
-    top: 0px;
-    text-align: center;
-}
-.wraperhuse__button .plus{
-    color: #fdb044
-}
 .roof{
     display: flex;
     flex-direction: column;
@@ -549,6 +591,13 @@ h3{
 .keeping{
     display: flex;
     flex-direction: column;
+}
+.keeping>div{
+    display: flex;
+    flex-direction: row;
+}
+.keeping>div>p{
+    padding-top: 5px
 }
 .window img,
 .keeping img{
@@ -601,10 +650,21 @@ h3{
     align-items: center;
     justify-content:center;
     bottom:390px;
-    left:600px;
-    width: 520px;
+    width:520px;
     background: #fff;
-    height: 570px
+    height: 570px;
+}
+.wraperhuse__two{
+    position: relative;
+    width:639px ;
+    left: 140px;
+    bottom: 320px;
+}
+.wraperhuse__two img:nth-child(2){
+    position: absolute;
+    bottom: -0px;
+    z-index: -1
+    
 }
 .wraperhuse__test__white>div{
     width: 400px;
@@ -612,12 +672,27 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
-.wraperhuse__test__white>div>.wraperhuse__test__button{
-    width: 400px;
+.linegrin{
+    width: 60px;
+    height: 8px;
+    margin-right: auto;
+    background: #9ce926;
 }
-.wraperhuse__test__white .button{
-    width: 400px
+.wraperhuse__test__white h1{
+    font-family: 'gilroyextrabold';
+    font-size: 35px;
 }
+.wraperhuse__test__white p{
+
+    font-size: 20px;
+}
+.wraperhuse__test__white .plus p{
+    text-align: center;
+    color: #fdac3f;
+    font-size: 18px
+        
+}
+
