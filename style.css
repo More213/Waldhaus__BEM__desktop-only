@@ -7,7 +7,7 @@
 body{
     height: auto;
     min-width: 768px;
-    max-width: 2560px;
+    max-width:100%;
     font-family: 'gilroymedium';
     font-size: 18px;
 }
@@ -48,14 +48,14 @@ overflow-y:hidden !important;
     min-width:768px ;
     overflow:hidden; 
     background-size:contain;
-}}
-.backgraundtwo{
+}} 
+.backgraund__two{
     display: flex;
     flex-direction: column;
     align-items: center
     
 }
-.backgraundtwo img{
+.backgraund__two img{
     z-index: -1;
     min-width: 100%;
     position:relative;
@@ -95,7 +95,7 @@ overflow-y:hidden !important;
 .navbar__navigation__mobil [type="checkbox"]{
      display: none;
 }
-.navbar__navigation__menu{
+.navbar__menu{
     width: 600px;
     height: 64px;
     display:flex;
@@ -104,28 +104,26 @@ overflow-y:hidden !important;
     align-items: center;
     border-bottom: 1px solid #e6e6e6;
 }
-.navbar__navigation__menu li{
+.navbar__menu .navbar__items{
     text-transform: uppercase;
     border-bottom:4px solid rgba(255, 255, 255, 0);
     cursor: pointer;
 }
-.navbar__navigation__menu li:hover{
+.navbar__menu .navbar__items:hover{
     top: 11px;
     position: relative;
     border-bottom: 4px solid #aae64e;
     transition: border-bottom 0.31s ease-out;
     padding-bottom: 22px;
-   
 }
-#act123324{
+.navbar__items__active{
     border-bottom: 4px solid #aae64e;
     top: 11px;
     position: relative;
     border-bottom: 4px solid #aae64e;
-    
     padding-bottom: 22px;
 }
-.navbar__navigation__menu .line{
+.navbar__menu .line{
     width: 1px;
     height: 14px;
     background: rgb(205, 205, 205);
@@ -171,34 +169,32 @@ overflow-y:hidden !important;
 .wraper__country h1 span{
     color: #fdb042
 }
-.wraper__country__items{
+.wraper__items{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom:25px;
 }
-.wraper__country__items p{
+.wraper__items p{
     width:440px; 
     float: right;
     font-size: 18px;
    
 }
-.wraper__country__items div{
+.wraper__items div{
     display: block;
     width:50px; 
     height: 50px;
     overflow: hidden;
 }
-.wraper__country__img1 img{
+.wraper__img1 img{
     position: relative;
     bottom: 65px;
 }
-.wraper__country__img2 img{
+.wraper__img2 img{
     position: relative;
     bottom: 135px;
 }
-.buttonthree,
-.buttontwo,
 .button{
     display: flex;
     flex-direction: row;
@@ -216,32 +212,28 @@ overflow-y:hidden !important;
     position:relative;
     text-align: center;
     top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 2
 } 
-.buttontwo{
+.button__two{
     margin-bottom: 15px;
     margin-top: 15px;
 }
 .wraperhuse__test__button{
     width: 400px;
 }
-.buttonthree{
+.button__three{
     width: 400px;
     margin-bottom: 15px
 }
-.buttonthree:active,
-.buttontwo:active,
 .button:active{
     background: #9ce926;
     box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.18);
 }
-.buttonthree:focus,
-.buttontwo:focus,
 .button:focus{
     outline: none;
 }
-.buttonthree div,
-.buttontwo div,
 .button div{
     width: 50px;
     background: #fff;
@@ -250,26 +242,17 @@ overflow-y:hidden !important;
     left: 20px;
     border-radius: 50px;
 }
-
-.buttontwo img,
 .button img{
     position: relative;
     top: 5px
 }
-
-.buttonthree img{
-    position: relative;
-    top: 5px
-}
-
-.buttontwo p,
 .button p{
     position: relative;
     left: 40px;
     font-size: 18px;
 }
 
-.buttonthree p{
+.button__three p{
     position: relative;
     left: 45px;
     font-size: 18px;
@@ -283,51 +266,24 @@ overflow-y:hidden !important;
     position: relative;
     right:140px ;
     bottom: 50px;
-    min-width: 100%;
+    max-width: 100%;
     z-index: -1;
     background-size:content;
 }
-@media only screen and (max-width:2000px){
-.hausimg{
-    position: relative;
-    right:70px ;
-    bottom: 50px;
-    min-width:90%;
-    height:624px ;
-    z-index: -1;
-    background-size:content;
 
-}}
-@media only screen and (max-width:1724px){
+@media only screen and (max-width:1915px){
 .hausimg{
-    position: relative;
-    right:60px ;
-    bottom: 50px;
-    height:546px;
-    min-width:70%;
-    z-index: -1;
-    background-size:contain;
-
+    max-width: 90%;
+    top: 10px;
+    left: 10px;
+    height: 624px;
+   margin-bottom:165px ;
+    
 }}
-@media only screen and (max-width:1801px){
-.hausimg{
-    position: relative;
-    right:60px ;
-    bottom: 50px;
-    height:546px;
-    min-width:70%;
-    z-index: -1;
-    background-size:contain;
-
-}}
-@media only screen and (max-width:1420px){
-.hausimg{
-    position: relative;
-    right:50px ;
-    bottom: 0px;
-    min-width:60%;
-    height:468px;
-    z-index: -1;
+@media only screen and (max-width:1552px){
+.heusehome2{
+    position: absolute;
+    top:10px ;
 }}
 .wraperhuse{
     display: flex;
@@ -361,42 +317,21 @@ h3{
 }
 .heusehome2{
     position:relative;
-    top: 100px
+    top: 180px
 }
 .mnogoygols{
     position:absolute;
     width:100%;
-    z-index: 1;
-    
-    top:1070px;
+    z-index:1;
+    top:1380px;
 }
-@media only screen and (min-width:1724px){
-.mnogoygols{
 
-    top:1140px;
-}}
-@media only screen and (min-width:1550px){
-.mnogoygols{
-
-    top:1135px;
-}}
-@media only screen and (min-width:2000px){
-.mnogoygols{
-
-    top:1295px;
-}}
-@media only screen and (max-width:1552px){
-.mnogoygols{
- 
-    top:1145px;
-}}
-
-.mnogoygol{
+.mnogoygols__img{
     z-index: 2;
     width: 76px;
     max-height:76;
 }
-.list_one .mnogoygol .line__mnoygol{
+.mnogoygols__list-one mnogoygols__img .mnogoygols__line{
     background: url(images/icons/line-one.png) no-repeat;
     z-index:-1;
     width: 114px;
@@ -405,22 +340,23 @@ h3{
     right: 50px;
     bottom:60px
 }
-.wraperhuse__stuff__items,
-.wraperhuse__stuff__list{
+.mnogoygols__items,
+.mnogoygols__list{
     position:relative;
 
 }
-.list_one{
+.mnogoygols__list-one{
     bottom: 130px;
     width: 300px;
     right: 180px
 }
-.list_one .mnogoygol{
+.mnogoygols__list-one .mnogoygols__img{
+    position: absolute;
     position: absolute;
     left: 360px;
     bottom: -90px;
 }
-.list_one .mnogoygol .line__mnoygol{
+.mnogoygols__list-one .mnogoygols__img .mnogoygols__line{
     background: url(images/icons/line-one.png) no-repeat;
     z-index:-1;
     width: 114px;
@@ -429,17 +365,17 @@ h3{
     right: 50px;
     bottom:60px
 }
-.list_two{
+.mnogoygols__list-two{
     width: 240px;
     bottom: 30px;
     right: 180px
 }
-.list_two .mnogoygol{
+.mnogoygols__list-two .mnogoygols__img{
     position: absolute;
     left: 462px;
     bottom: 125px;
 }
-.list_two .mnogoygol .line__mnoygol{
+.mnogoygols__list-two .mnogoygols__img .mnogoygols__line{
     background: url(images/icons/line-two.png) no-repeat;
     z-index:-1;
     width: 248px;
@@ -448,17 +384,17 @@ h3{
     right: 50px;
     bottom:-10px;
 }
-.list_three{
+.mnogoygols__list-three{
     width: 240px; 
     bottom: 0px;
     right: 100px
 }
-.list_three .mnogoygol{
+.mnogoygols__list-three .mnogoygols__img{
     position: absolute;
     left: 390px;
     bottom: 240px;
 }
-.list_three .mnogoygol .line__mnoygol{
+.mnogoygols__list-three .mnogoygols__img .mnogoygols__line{
     background: url(images/icons/line-three.png) no-repeat;
     z-index:-1;
     width:225px;
@@ -467,16 +403,16 @@ h3{
     right: 50px;
     top:30px
 }
-.list_four{
+.mnogoygols__list-four{
      bottom:60px;
     left: 210px
 }
-.list_four .mnogoygol{
+.mnogoygols__list-four .mnogoygols__img{
     position: relative;
     left: 150px;
     bottom: 260px;
 }
-.list_four .mnogoygol .line__mnoygol{
+.mnogoygols__list-four .mnogoygols__img .mnogoygols__line{
     background: url(images/icons/line-four.png) no-repeat;
     z-index:-1;
     width:12px;
@@ -485,16 +421,16 @@ h3{
     left: 33px;
     top:60px
 }
-.list_five{
+.mnogoygols__list-five{
     bottom: 830px;
     left:600px ;
 }
-.list_five .mnogoygol{
+.mnogoygols__list-five .mnogoygols__img{
     position: relative;
     right: 150px;
     top: 120px;
 }
-.list_five .mnogoygol .line__mnoygol{
+.mnogoygols__list-five .mnogoygols__img .mnogoygols__line{
     background: url(images/icons/line-five.png) no-repeat;
     z-index:-1;
     width:90px;
@@ -503,16 +439,16 @@ h3{
     left: 40px;
     bottom:60px
 }
-.list_six{
+.mnogoygols__list-six{
     bottom:860px;
     left:780px ;
 }
-.list_six .mnogoygol{
+.mnogoygols__list-six .mnogoygols__img{
     position: relative;
     right: 350px;
     bottom:45px;
 }
-.list_six .mnogoygol .line__mnoygol{
+.mnogoygols__list-six .mnogoygols__img .mnogoygols__line{
     background: url(images/icons/line-six.png) no-repeat;
     z-index:-1;
     width:317px;
@@ -521,16 +457,16 @@ h3{
     left: 20px;
     bottom:25px
 }
-.list_seven{
+.mnogoygols__list-seven{
     bottom:870px;
     left:780px ;
 }
-.list_seven .mnogoygol{
+.mnogoygols__list-seven .mnogoygols__img{
     position: relative;
     right:275px ;
     bottom: 130px;
 }
-.list_seven .mnogoygol .line__mnoygol{
+.mnogoygols__list-seven .mnogoygols__img .mnogoygols__line{
     background: url(images/icons/line-seven.png) no-repeat;
     z-index:-1;
     width:255px;
@@ -540,111 +476,111 @@ h3{
     bottom:50px
 }
 
-.mnogoygol img:nth-child(2){
+.mnogoygols__img img:nth-child(2){
     z-index: 2;
     position: absolute;
     bottom:24px;
     left: 17px
 }
-.mnogoygol img:nth-child(3){
+.mnogoygols__img img:nth-child(3){
     z-index: 1;
     position:absolute;
     bottom:24px;
     left: 17px
 }
-.mnogoygol img:nth-child(4){
+.mnogoygols__img img:nth-child(4){
     z-index: 3;
     position:absolute;
     bottom:37px;
     left: 27px;
     
 }
-.mnogoygol:hover img:nth-child(2){
+.mnogoygols__img:hover img:nth-child(2){
     display: none
 }
-.mnogoygol:hover img:nth-child(3){
+.mnogoygols__img:hover img:nth-child(3){
     z-index: 1;
     position:absolute;
     left: 17px
 }
-.mnogoygol:hover img:nth-child(4){
+.mnogoygols__img:hover img:nth-child(4){
     z-index: 3;
     position:absolute;
 
     right: 19px;
 }
 
-.roof{
+.mnogoygols__items-roof{
     display: flex;
     flex-direction: column;
 }
-.roof img{
+.mnogoygols__items-roof img{
     max-width:200px;
 }
-.roof p{
+.mnogoygols__items-roof p{
     width: 240px
 }
-.roof span{
+.mnogoygols__items-roof span{
     font-family: 'gilroybold';
     color: #fcbd67;
 }
-.keeping{
+.mnogoygols__items-keeping{
     display: flex;
     flex-direction: column;
 }
-.keeping>div{
+.mnogoygols__items-keeping>div{
     display: flex;
     flex-direction: row;
 }
-.keeping>div>p{
+.mnogoygols__items-keeping>div>p{
     padding-top: 5px
 }
-.window img,
-.keeping img{
+.mnogoygols__items-window img,
+.mnogoygols__items-keeping img{
     width: 120px
 }
-.keeping p{
+.mnogoygols__items-keeping p{
     width: 230px
 }
-.window{
+.mnogoygols__items-window{
     width: 240px; 
     display: flex;
     flex-direction: column
 }
-.window p{
+.mnogoygols__items-window p{
     width: 200px;
 }
-.membrane{
+.mnogoygols__items-membrane{
     width:410px;
     display: flex;
     flex-direction:row;
 }
-.membrane img{
+.mnogoygols__items-membrane img{
     width: 136px;
 }
-.lumber{
+.mnogoygols__items-lumber{
     width: 400px;
     display: flex;
     flex-direction:row;
 }
-.lumber img{
+.mnogoygols__items-lumber img{
     width: 110px;
 }
-.insulation{
+.mnogoygols__items-insulation{
     width: 210px;
     display: flex;
     flex-direction:column;
 }
-.foundation img,
-.insulation img{
+.mnogoygols__items-foundation img,
+.mnogoygols__items-insulation img{
     width:150px;
 }
-.foundation{
+.mnogoygols__items-foundation{
     width: 230px;
     display: flex;
     flex-direction:column;
 }
-.wraperhuse__test__white{
+.wrapertest__white{
     display: flex;
     position: relative;
     align-items: center;
@@ -666,7 +602,7 @@ h3{
     z-index: -1
     
 }
-.wraperhuse__test__white>div{
+.wrapertest__white>div{
     width: 400px;
     height: 400px;
     display: flex;
@@ -675,21 +611,21 @@ h3{
     justify-content: space-between;
 
 }
-.linegrin{
+.wrapertest__line__grin{
     width: 60px;
     height: 8px;
     margin-right: auto;
     background: #9ce926;
 }
-.wraperhuse__test__white h1{
+.wrapertest__white h1{
     font-family: 'gilroyextrabold';
     font-size: 35px;
 }
-.wraperhuse__test__white p{
+.wrapertest__white p{
 
     font-size: 20px;
 }
-.wraperhuse__test__white .plus p{
+.wrapertest__white .plus p{
     text-align: center;
     color: #fdac3f;
     font-size: 18px
