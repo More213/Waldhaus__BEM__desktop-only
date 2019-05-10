@@ -25,7 +25,7 @@ overflow-x:hidden !important;
 .body{
 overflow-y:hidden !important;
 }
-.backgraund img{
+.backgraund__image{
     width:100%;
     z-index: -1;
     position: absolute;
@@ -33,7 +33,7 @@ overflow-y:hidden !important;
     background-size: cover;
 }
 @media only screen and (max-width:1440px){
-.backgraund img{
+.backgraund__image{
     height:auto;   
     width:1440px;
     min-width:1024px ;
@@ -42,7 +42,7 @@ overflow-y:hidden !important;
 }}
 
 @media only screen and (max-width:1024px){
-.backgraund img{
+.backgraund__image{
     height:auto;   
     width:1024px;
     min-width:768px ;
@@ -55,7 +55,7 @@ overflow-y:hidden !important;
     align-items: center
     
 }
-.backgraund__two img{
+.backgraund__image-two{
     z-index: -1;
     min-width: 100%;
     position:relative;
@@ -81,7 +81,7 @@ overflow-y:hidden !important;
     align-items: center;
     font-size: 18px;
 }
-.navbar__logo .line{
+.navbar__line{
     height: 37px;
     width: 1px;
     background: #f7cd4b;
@@ -123,12 +123,12 @@ overflow-y:hidden !important;
     border-bottom: 4px solid #aae64e;
     padding-bottom: 22px;
 }
-.navbar__menu .line{
+.navbar__menu-line{
     width: 1px;
     height: 14px;
     background: rgb(205, 205, 205);
 }
-.navbar__navigation__contact{
+.navbar__contact{
     width: 600px;
     height: 64px;
     font-size: 18px;
@@ -137,11 +137,11 @@ overflow-y:hidden !important;
     flex-direction: row;
     align-items: center
 }
-.navbar__navigation__contact li p{
+.navbar__contact .navbar__p{
     float: right;
     margin-top: 7px;
 }
-.navbar__navigation__contact li a{
+.navbar__contact .navbar__a{
     border-bottom: 1px solid #000;
     font-family: gilroybold
 }
@@ -160,13 +160,13 @@ overflow-y:hidden !important;
     flex-direction: column;
     width: 570px;
 }
-.wraper__country h1{
+.wraper__country .wraper__h1{
     font-size: 33px;
     margin-bottom: 35px;
     font-family:'gilroybold';
     width: 570px;
 }
-.wraper__country h1 span{
+.wraper__h1__orang{
     color: #fdb042
 }
 .wraper__items{
@@ -175,23 +175,23 @@ overflow-y:hidden !important;
     align-items: center;
     margin-bottom:25px;
 }
-.wraper__items p{
+.wraper__items .wraper__rubric{
     width:440px; 
     float: right;
     font-size: 18px;
    
 }
-.wraper__items div{
+.wraper__img__hidden{
     display: block;
     width:50px; 
     height: 50px;
     overflow: hidden;
 }
-.wraper__img1 img{
+.wraper__img1{
     position: relative;
     bottom: 65px;
 }
-.wraper__img2 img{
+.wraper__img2{
     position: relative;
     bottom: 135px;
 }
@@ -207,7 +207,7 @@ overflow-y:hidden !important;
     background-color: #fdb044;
     box-shadow: 0px 24px 76px 0px rgba(0, 0, 0, 0.18);
 }
-.wraperhuse__button{
+.wraperhause__button{
     width: 470px;
     position:relative;
     text-align: center;
@@ -220,7 +220,7 @@ overflow-y:hidden !important;
     margin-bottom: 15px;
     margin-top: 15px;
 }
-.wraperhuse__test__button{
+.wraperhause__test__button{
     width: 400px;
 }
 .button__three{
@@ -234,7 +234,7 @@ overflow-y:hidden !important;
 .button:focus{
     outline: none;
 }
-.button div{
+.button__circle{
     width: 50px;
     background: #fff;
     height: 50px;
@@ -242,20 +242,20 @@ overflow-y:hidden !important;
     left: 20px;
     border-radius: 50px;
 }
-.button img{
+.button__icon{
     position: relative;
     top: 5px
 }
-.button p{
+.button__20min{
     position: relative;
     left: 40px;
     font-size: 18px;
 }
 
-.button__three p{
+.button__three .button__20min{
     position: relative;
     left: 45px;
-    font-size: 18px;
+    font-size:18px;
 }
 
 .wraper__country .plus{
@@ -285,7 +285,7 @@ overflow-y:hidden !important;
     position: absolute;
     top:10px ;
 }}
-.wraperhuse{
+.wraperhause{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -294,7 +294,7 @@ overflow-y:hidden !important;
     margin-right: auto;
     margin-bottom: 300px
 }
-.wraperhuse__test{
+.wraperhause__test{
     display: flex;
     position:relative;
     flex-direction:row;
@@ -309,7 +309,7 @@ h3{
     font-size: 20px;
     font-family: 'gilroybold'
 }
-.wraperhuse__sheath{
+.wraperhause__sheath{
     width:800px; 
     min-height:100px;
     max-height: 700px;
@@ -476,48 +476,40 @@ h3{
     bottom:50px
 }
 
-.mnogoygols__img img:nth-child(2){
+.mnogoygols__img .mnogoygols__green{
     z-index: 2;
     position: absolute;
     bottom:24px;
     left: 17px
 }
-.mnogoygols__img img:nth-child(3){
+.mnogoygols__img .mnogoygols__orang{
     z-index: 1;
     position:absolute;
     bottom:24px;
     left: 17px
 }
-.mnogoygols__img img:nth-child(4){
+.mnogoygols__img .mnogoygols__loupe{
     z-index: 3;
     position:absolute;
     bottom:37px;
     left: 27px;
-    
 }
-.mnogoygols__img:hover img:nth-child(2){
+.mnogoygols__img:hover .mnogoygols__green{
     display: none
 }
-.mnogoygols__img:hover img:nth-child(3){
+.mnogoygols__img:hover mnogoygols__orang{
     z-index: 1;
     position:absolute;
     left: 17px
 }
-.mnogoygols__img:hover img:nth-child(4){
-    z-index: 3;
-    position:absolute;
-
-    right: 19px;
-}
-
 .mnogoygols__items-roof{
     display: flex;
     flex-direction: column;
 }
-.mnogoygols__items-roof img{
+.mnogoygols__items-roof .mnogoygols__logo{
     max-width:200px;
 }
-.mnogoygols__items-roof p{
+.mnogoygols__items-roof .mnogoygols__p{
     width: 240px
 }
 .mnogoygols__items-roof span{
@@ -528,18 +520,21 @@ h3{
     display: flex;
     flex-direction: column;
 }
-.mnogoygols__items-keeping>div{
+.mnogoygols__items-keeping>.keeping{
     display: flex;
     flex-direction: row;
 }
-.mnogoygols__items-keeping>div>p{
+.keeping .keeping__logo-p{
     padding-top: 5px
 }
-.mnogoygols__items-window img,
-.mnogoygols__items-keeping img{
+.keeping .keeping__logo-p2{
+    padding-top: 9px;
+}
+.mnogoygols__items-window .mnogoygols__logo,
+.mnogoygols__items-keeping .mnogoygols__logo{
     width: 120px
 }
-.mnogoygols__items-keeping p{
+.mnogoygols__items-keeping .mnogoygols__p{
     width: 230px
 }
 .mnogoygols__items-window{
@@ -547,7 +542,7 @@ h3{
     display: flex;
     flex-direction: column
 }
-.mnogoygols__items-window p{
+.mnogoygols__items-window .mnogoygols__p{
     width: 200px;
 }
 .mnogoygols__items-membrane{
@@ -555,7 +550,7 @@ h3{
     display: flex;
     flex-direction:row;
 }
-.mnogoygols__items-membrane img{
+.mnogoygols__items-membrane .mnogoygols__logo{
     width: 136px;
 }
 .mnogoygols__items-lumber{
@@ -563,7 +558,7 @@ h3{
     display: flex;
     flex-direction:row;
 }
-.mnogoygols__items-lumber img{
+.mnogoygols__items-lumber .mnogoygols__logo{
     width: 110px;
 }
 .mnogoygols__items-insulation{
@@ -571,8 +566,8 @@ h3{
     display: flex;
     flex-direction:column;
 }
-.mnogoygols__items-foundation img,
-.mnogoygols__items-insulation img{
+.mnogoygols__items-foundation .mnogoygols__logo,
+.mnogoygols__items-insulation .mnogoygols__logo{
     width:150px;
 }
 .mnogoygols__items-foundation{
@@ -590,19 +585,19 @@ h3{
     background: #fff;
     height: 570px;
 }
-.wraperhuse__two{
+.wraperhause__two{
     position: relative;
     width:639px ;
     left: 140px;
     bottom: 320px;
 }
-.wraperhuse__two img:nth-child(2){
+.wraperhause__two img:nth-child(2){
     position: absolute;
     bottom: -0px;
     z-index: -1
     
 }
-.wrapertest__white>div{
+.wrapertest__white__flex{
     width: 400px;
     height: 400px;
     display: flex;
@@ -617,15 +612,14 @@ h3{
     margin-right: auto;
     background: #9ce926;
 }
-.wrapertest__white h1{
+.wrapertest__white__flex .wrapertest__h1{
     font-family: 'gilroyextrabold';
     font-size: 35px;
 }
-.wrapertest__white p{
-
+.wrapertest__white .wrapertest__p{
     font-size: 20px;
 }
-.wrapertest__white .plus p{
+.wrapertest__white .plus__p{
     text-align: center;
     color: #fdac3f;
     font-size: 18px

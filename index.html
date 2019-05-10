@@ -13,8 +13,9 @@
         <header>
             <nav class="navbar">
                 <div class="navbar__logo">
-                    <div><a><img src="images/icons/logo.png" alt="логотип"></a></div><div class="line"></div>    
-                    <div><p>Строим деревянные дома<br> и бани с 2002 года</p></div>
+                    <div><a><img src="images/icons/logo.png" alt="логотип"></a></div>
+                    <div class="navbar__line"></div>   
+                    <div><p class="navbar__p">Строим деревянные дома<br> и бани с 2002 года</p></div>
                 </div>
                 <div class="navbar__navigation__mobil">
                     <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
@@ -22,214 +23,213 @@
                     <div class="navbar__navigation">
                         <ul class="navbar__menu">
                             <li class="navbar__items"><a href="">подход</a></li>
-                            <div class="line"></div>
+                            <div class="navbar__menu-line"></div>
                             <li class="navbar__items"><a href="">материалы</a></li>
-                            <div class="line"></div>
+                            <div class="navbar__menu-line"></div>
                             <li class="navbar__items"><a href="">производство</a></li>
-                            <div class="line"></div>
+                            <div class="navbar__menu-line"></div>
                             <li class="navbar__items navbar__items__active"><a href="">проекты</a></li>
-                            <div class="line"></div>
+                            <div class="navbar__menu-line"></div>
                             <li class="navbar__items"><a href="">расчет</a></li>
                         </ul>
-                        <ul class="navbar__navigation__contact">
-                            <li>
+                        <ul class="navbar__contact">
+                            <li class="navbar__items">
                                 <img src="images/icons/phone.png" alt="">
-                                <p>8 (831) 410-97-87</p>
+                                <p class="navbar__p">8 (831) 410-97-87</p>
                             </li>
-                            <li>
+                            <li class="navbar__items">
                                 <img src="images/icons/mail.png" alt="">
-                                <p>info@wald-house.ru</p>
+                                <p class="navbar__p">info@wald-house.ru</p>
                             </li>
-                            <li><a href="">Получить расчет</a></li>
+                            <li class="navbar__items"><a href="#" class="navbar__a">Получить расчет</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
             <div class="backgraund">
-                <img src="images/backgr&content/sky.png" alt="">
+                <img src="images/backgr&content/sky.png" alt="" class="backgraund__image">
             </div>
         </header>
         <section class="wraper">
             <div class="wraper__country">  
-                <h1>Построим дачу по каркасной технологии за <span>1 месяц</span> с     выгодой до <span>350 000 ₽</span> за     счет собственного производства
+                <h1 class="wraper__h1">Построим дачу по каркасной технологии за <span class="wraper__h1__orang">1 месяц</span> с     выгодой до <span class="wraper__h1__orang">350 000 ₽</span> за     счет собственного производства
                 </h1>
                 <ul class="wraper__list">
                     <li class="wraper__items">
-                        <div class="wraper__img">
-                            <img src="images/icons/icons-three.png" alt=""> 
+                        <div class="wraper__img__hidden">
+                            <img src="images/icons/icons-three.png" alt="" class="wraper__img"> 
                         </div>
-                        <p>Строим по вашему индивидуальному проекту, либо разрабатываем специально для вас</p>
+                        <p class="wraper__rubric">Строим по вашему индивидуальному проекту, либо разрабатываем специально для вас</p>
                     </li>
                     <li class="wraper__items">
-                        <div class="wraper__img1">
-                            <img src="images/icons/icons-three.png" alt="">
+                        <div class="wraper__img__hidden">
+                            <img src="images/icons/icons-three.png" alt="" class="wraper__img1">
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam a, dolores nostrum officiis sint explicabo ad odit, sequi architecto porro quas numquam dolorem qui saepe deserunt fugit molestiae aperiam minima.</p>
+                        <p class="wraper__rubric">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam a, dolores nostrum officiis sint explicabo ad odit, sequi architecto porro quas numquam dolorem qui saepe deserunt fugit molestiae aperiam minima.</p>
                     </li>
                     <li class="wraper__items">
-                        <div class="wraper__img2">
-                            <img src="images/icons/icons-three.png" alt="">
+                        <div class="wraper__img__hidden">
+                            <img src="images/icons/icons-three.png" alt="" class="wraper__img2">
                         </div>
-                        <p>Работают исключительно русские бригады потомственных плотников из Кировской области</p>
+                        <p class="wraper__rubric">Работают исключительно русские бригады потомственных плотников из Кировской области</p>
                     </li>
                 </ul>
                 <button class="button button__one">
-                    <div><img src="images/icons/iconbutton.png" alt=""></div>
-                    <p>Получить расчет стоимости за 20 минут</p>
+                    <div class="button__circle"><img src="images/icons/iconbutton.png" alt="" class="button__icon"></div>
+                    <p class="button__20min">Получить расчет стоимости за 20 минут</p>
                 </button>
                 <div class="plus">
-                    <p>+ каталог проектов Wald Hause с ценами</p>
-                    <p>+ bскидку 5% на строительство дома</p>
+                    <p class="plus__p">+ каталог проектов Wald Hause с ценами</p>
+                    <p class="plus__p">+ bскидку 5% на строительство дома</p>
                 </div>
             </div> 
             <img src="images/backgr&content/hasehome1.png" class="hausimg" alt="" >
         </section>
         
-        <section class="wraperhuse">
-           <div class="wraperhuse__sheath">
+        <section class="wraperhause">
+           <div class="wraperhause__sheath">
                 <img src="images/backgr&content/heusehome2.png" class="heusehome2" alt="">
                 <div class="mnogoygols">
                     <div class="mnogoygols__list mnogoygols__list-one">
                         <div class="mnogoygols__items mnogoygols__items-roof">
-                            <h3>Кровля и водосточная система</h3>
-                            <img src="images/icons/grandline.png" alt="">
-                            <p>Ведущий поставщик кровельных материалов на рынке. Гарантия до <span>50 лет.</span></p>
+                            <h3 class="mnogoygols__h3">Кровля и водосточная система</h3>
+                            <img src="images/icons/grandline.png" alt="" class="mnogoygols__logo">
+                            <p class="mnogoygols__p">Ведущий поставщик кровельных материалов на рынке. Гарантия до <span>50 лет.</span></p>
                         </div>
                         <div class="mnogoygols__img">
-                            <img src="images/icons/mnogoygol-w.png" alt="">
-                            <img src="images/icons/mnogoygol-g.png" alt="">
-                            <img src="images/icons/mnogoygol-o.png" alt="">
-                            <img src="images/icons/loupe.png" alt="">
+                            <img src="images/icons/mnogoygol-w.png" alt="" class="mnogoygols__white">
+                            <img src="images/icons/mnogoygol-g.png" alt="" class="mnogoygols__green">
+                            <img src="images/icons/mnogoygol-o.png" alt="" class="mnogoygols__orang">
+                            <img src="images/icons/loupe.png" alt="" class="mnogoygols__loupe">
                             <div class="mnogoygols__line"></div>
                         </div>
                     </div>
                     <div class="mnogoygols__list mnogoygols__list-two">
                         <div class="mnogoygols__items mnogoygols__items-keeping">
-                            <h3>Защитный состав</h3>
-                            <div><img src="images/icons/nature.png" alt=""><p>- масло</p></div>
-                            <div><img src="images/icons/teknos.png" alt=""><p>- краска</p></div>
-                            <p>Защищают от влаги и гниения, выравнивают цвет дерева, в разы увеличивают срок службы</p>
+                            <h3 class="mnogoygols__h3">Защитный состав</h3>
+                            <div class="keeping"><img src="images/icons/nature.png" alt="" class="keeping__logo"><p class="keeping__logo-p">- масло</p></div>
+                            <div class="keeping"><img src="images/icons/teknos.png" alt="" class="keeping__logo"><p class="keeping__logo-p2">- краска</p></div>
+                            <p class="mnogoygols__p">Защищают от влаги и гниения, выравнивают цвет дерева, в разы увеличивают срок службы</p>
                         </div>
                         <div class="mnogoygols__img">
-                            <img src="images/icons/mnogoygol-w.png" alt="">
-                            <img src="images/icons/mnogoygol-g.png" alt="">
-                            <img src="images/icons/mnogoygol-o.png" alt="">
-                            <img src="images/icons/loupe.png" alt="">
+                            <img src="images/icons/mnogoygol-w.png" alt="" class="mnogoygols__white">
+                            <img src="images/icons/mnogoygol-g.png" alt="" class="mnogoygols__green">
+                            <img src="images/icons/mnogoygol-o.png" alt="" class="mnogoygols__orang">
+                            <img src="images/icons/loupe.png" alt="" class="mnogoygols__loupe">
                             <div class="mnogoygols__line"></div>
                         </div>
                     </div>
                     <div class="mnogoygols__list mnogoygols__list-three">
                         <div class="mnogoygols__items mnogoygols__items-window">
-                            <h3>Пластиковые окна</h3>
-                            <img src="images/icons/rehau.png" alt="">
-                            <p>3-камерный 60мм стеклопакет Rehau Blitz New с высокой тепло- и шумоизоляцией</p>
+                            <h3 class="mnogoygols__h3">Пластиковые окна</h3>
+                            <img src="images/icons/rehau.png" alt="" class="mnogoygols__logo">
+                            <p class="mnogoygols__p">3-камерный 60мм стеклопакет Rehau Blitz New с высокой тепло- и шумоизоляцией</p>
                         </div>
                         <div class="mnogoygols__img">
-                            <img src="images/icons/mnogoygol-w.png" alt="">
-                            <img src="images/icons/mnogoygol-g.png" alt="">
-                            <img src="images/icons/mnogoygol-o.png" alt="">
-                            <img src="images/icons/loupe.png" alt="">
+                            <img src="images/icons/mnogoygol-w.png" alt="" class="mnogoygols__white">
+                            <img src="images/icons/mnogoygol-g.png" alt="" class="mnogoygols__green">
+                            <img src="images/icons/mnogoygol-o.png" alt="" class="mnogoygols__orang">
+                            <img src="images/icons/loupe.png" alt="" class="mnogoygols__loupe">
                             <div class="mnogoygols__line"></div>
                         </div>
                     </div>
                     <div class="mnogoygols__list mnogoygols__list-four">
                         <div class="mnogoygols__items mnogoygols__items-membrane">
                             <div>
-                                <h3>Мембранные пленки</h3>
-                                <p>Используем 3-слойные паропроницаемые мембраны</p>
+                                <h3 class="mnogoygols__h3">Мембранные пленки</h3>
+                                <p class="mnogoygols__p">Используем 3-слойные паропроницаемые мембраны</p>
                             </div>
-                            <img src="images/icons/izospan.png" alt="">
+                            <img src="images/icons/izospan.png" alt="" class="mnogoygols__logo">
                         </div>
                         <div class="mnogoygols__img">
-                            <img src="images/icons/mnogoygol-w.png" alt="">
-                            <img src="images/icons/mnogoygol-g.png" alt="">
-                            <img src="images/icons/mnogoygol-o.png" alt="">
-                            <img src="images/icons/loupe.png" alt="">
+                            <img src="images/icons/mnogoygol-w.png" alt="" class="mnogoygols__white">
+                            <img src="images/icons/mnogoygol-g.png" alt="" class="mnogoygols__green">
+                            <img src="images/icons/mnogoygol-o.png" alt="" class="mnogoygols__orang">
+                            <img src="images/icons/loupe.png" alt="" class="mnogoygols__loupe">
                             <div class="mnogoygols__line"></div>
                         </div>
                     </div>
                     <div class="mnogoygols__list mnogoygols__list-five">
                         <div class="mnogoygols__items mnogoygols__items-lumber">
                             <div>
-                                <h3>Пиломатериал</h3>
-                                <p>Собственного производства</p>
+                                <h3 class="mnogoygols__h3">Пиломатериал</h3>
+                                <p class="mnogoygols__p">Собственного производства</p>
                             </div>
-                            <img src="images/icons/logohuse.png" alt="">
+                            <img src="images/icons/logohuse.png" alt="" class="mnogoygols__logo">
                         </div>
                         <div class="mnogoygols__img">
-                            <img src="images/icons/mnogoygol-w.png" alt="">
-                            <img src="images/icons/mnogoygol-g.png" alt="">
-                            <img src="images/icons/mnogoygol-o.png" alt="">
-                            <img src="images/icons/loupe.png" alt="">
+                            <img src="images/icons/mnogoygol-w.png" alt="" class="mnogoygols__white">
+                            <img src="images/icons/mnogoygol-g.png" alt="" class="mnogoygols__green">
+                            <img src="images/icons/mnogoygol-o.png" alt="" class="mnogoygols__orang">
+                            <img src="images/icons/loupe.png" alt="" class="mnogoygols__loupe">
                             <div class="mnogoygols__line"></div>
                         </div>
                     </div>
                     <div class="mnogoygols__list mnogoygols__list-six">
                         <div class="mnogoygols__items mnogoygols__items-insulation">
-                            <h3>Плитный утеплитель</h3>
-                            <img src="images/icons/rockwool.png" alt="">
-                            <img src="images/icons/tehnonicol.png" alt="">
-                            <p>Высокие показатели паропроницаемости и стабильности размеров</p>
-                            <p>Биостойкость - не являются средой обитания для грызунов и микроорганизмов</p>
+                            <h3 class="mnogoygols__h3">Плитный утеплитель</h3>
+                            <img src="images/icons/rockwool.png" alt="" class="mnogoygols__logo">
+                            <img src="images/icons/tehnonicol.png" alt="" class="mnogoygols__logo">
+                            <p class="mnogoygols__p">Высокие показатели паропроницаемости и стабильности размеров</p>
+                            <p class="mnogoygols__p">Биостойкость - не являются средой обитания для грызунов и микроорганизмов</p>
                         </div>
                         <div class="mnogoygols__img">
-                            <img src="images/icons/mnogoygol-w.png" alt="">
-                            <img src="images/icons/mnogoygol-g.png" alt="">
-                            <img src="images/icons/mnogoygol-o.png" alt="">
-                            <img src="images/icons/loupe.png" alt="">
+                            <img src="images/icons/mnogoygol-w.png" alt="" class="mnogoygols__white">
+                            <img src="images/icons/mnogoygol-g.png" alt="" class="mnogoygols__green">
+                            <img src="images/icons/mnogoygol-o.png" alt="" class="mnogoygols__orang">
+                            <img src="images/icons/loupe.png" alt="" class="mnogoygols__loupe">
                             <div class="mnogoygols__line"></div>
                         </div>
                     </div>
                     
                     <div class="mnogoygols__list mnogoygols__list-seven">
                         <div class="mnogoygols__items mnogoygols__items-foundation">
-                            <h3>Фундамент</h3>
-                            <img src="images/icons/swaiz.png" alt="">
-                            <p>Лидер в создании фундаментов Нижегородской области. Сваи с несущей способностью до 30 т.</p>
+                            <h3 class="mnogoygols__h3">Фундамент</h3>
+                            <img src="images/icons/swaiz.png" alt="" class="mnogoygols__logo">
+                            <p class="mnogoygols__p">Лидер в создании фундаментов Нижегородской области. Сваи с несущей способностью до 30 т.</p>
                         </div>
                         <div class="mnogoygols__img">
-                            <img src="images/icons/mnogoygol-w.png" alt="">
-                            <img src="images/icons/mnogoygol-g.png" alt="">
-                            <img src="images/icons/mnogoygol-o.png" alt="">
-                            <img src="images/icons/loupe.png" alt="">
+                            <img src="images/icons/mnogoygol-w.png" alt="" class="mnogoygols__white">
+                            <img src="images/icons/mnogoygol-g.png" alt="" class="mnogoygols__green">
+                            <img src="images/icons/mnogoygol-o.png" alt="" class="mnogoygols__orang">
+                            <img src="images/icons/loupe.png" alt="" class="mnogoygols__loupe">
                             <div class="mnogoygols__line"></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="wraperhuse__button">
-               <p>У вас уже есть готовый проект? Пришлите его нам,и получите расчет стоимости уже через 20 минут!</p>
+            <div class="wraperhause__button">
+               <p class="wraperhause_p">У вас уже есть готовый проект? Пришлите его нам,и получите расчет стоимости уже через 20 минут!</p>
                 <button class="button button__two">
-                    <div><img src="images/icons/iconbutton.png" alt=""></div>
-                    <p>Получить расчет стоимости за 20 минут</p>
+                    <div class="button__circle"><img src="images/icons/iconbutton.png" alt="" class="button__icon"></div>
+                    <p class="button__20min">Получить расчет стоимости за 20 минут</p>
                 </button>
-                <div class="plus"><p>+ каталог проектов Wald Hause с ценами</p>
-                <p>+ bскидку 5% на строительство дома</p></div>
+                <div class="plus"><p class="plus__p">+ каталог проектов Wald Hause с ценами</p>
+                <p class="plus__p">+ bскидку 5% на строительство дома</p></div>
             </div>
         </section>
  
             <div class="backgraund__two">
-                <img src="images/backgr&content/forest.png" alt="">
+                <img src="images/backgr&content/forest.png" alt="" class="backgraund__image-two">
             </div>
-            <section class="wraperhuse__test">
-                <div class="wraperhuse__two">
-                   
+            <section class="wraperhause__test">
+                <div class="wraperhause__two">
                     <img src="images/backgr&content/husehome3.png" alt="">
                     <img src="images/backgr&content/road.png" alt="">
                 </div>
                 <div class="wrapertest__white">
-                   <div>
-                        <h1>Подобрать наиболее  подходящий проект</h1>
+                   <div class="wrapertest__white__flex">
+                        <h1 class="wrapertest__h1">Подобрать наиболее  подходящий проект</h1>
                         <div class="wrapertest__line__grin"></div>
-                        <p>Пройдите небольшой тест и получите точный расчет, схему и смету проекта дома уже через 5 минут</p>
+                        <p class="wrapertest__p">Пройдите небольшой тест и получите точный расчет, схему и смету проекта дома уже через 5 минут</p>
                         <div class="wrapertest__button">
                             <button class="button button__three">
-                                <div><img src="images/icons/iconbutton.png" alt=""></div>
-                                <p>Получить расчет стоимости!</p>
+                                <div class="button__circle"><img src="images/icons/iconbutton.png" alt="" class="button__icon"></div>
+                                <p class="button__20min">Получить расчет стоимости!</p>
                             </button>
                             <div class="plus">
-                                <p>+ каталог проектов Wald Hause с ценами</p>
-                                <p>+ bскидку 5% на строительство дома</p>
+                                <p class="plus__p">+ каталог проектов Wald Hause с ценами</p>
+                                <p class="plus__p">+ bскидку 5% на строительство дома</p>
                             </div>
                         </div>
                     </div>
