@@ -5,6 +5,7 @@
     list-style:none;
 }
 body{
+    
     height: auto;
     min-width: 768px;
     max-width:100%;
@@ -272,11 +273,9 @@ overflow-y:hidden !important;
     flex-shrink: 3
 }
 .hausimg__cover{
-
     z-index: -1;
     background-size:cover;
 }
-
 @media only screen and (max-width:2250px){
 .wraper__hausimg{
     right: 40px;
@@ -298,47 +297,76 @@ overflow-y:hidden !important;
 @media only screen and (max-width:1920px){
 .hausimg__cover{
     height:700px;
-    margin-bottom:165px ;
+    margin-bottom:0px ;
 }}
 @media only screen and (max-width:1880px){
 .hausimg__cover{
     height:690px;
-    margin-bottom:165px ;
+
+}
+.wraperhause{
+    position: relative;
+  bottom: 100px;
 }}
 @media only screen and (max-width:1830px){
 .hausimg__cover{
     height:670px;
-    margin-bottom:165px ;
+
 }}
 @media only screen and (max-width:1780px){
 .hausimg__cover{
     height:650px;
-    margin-bottom:165px ;
+
 }}
 @media only screen and (max-width:1660px){
 .hausimg__cover{
     height:630px;
-    margin-bottom:165px ;
-}}
+    }
+    .wraperhause{
+    position:relative;
+  bottom: 200px;
+}
+    .backgraund__image-two{
+    position:relative;
+    bottom: 200px;
+}
+ .wraperhause__test{
+   bottom: 200px 
+}
+}
 @media only screen and (max-width:1603px){
 .hausimg__cover{
     height:600px;
-    margin-bottom:165px ;
-}}
+    }
+
+}
 @media only screen and (max-width:1518px){
 .hausimg__cover{
     height:580px;
-    margin-bottom:165px ;
+
 }}
 @media only screen and (max-width:1460px){
 .hausimg__cover{
     height:560px;
-    margin-bottom:165px ;
-}}
+
+}
+.wraperhause{
+    position:relative;
+    bottom: 250px;
+    margin-bottom: 0px;
+}
+       .backgraund__image-two{
+    position:relative;
+    bottom: 250px;
+}
+ .wraperhause__test{
+   bottom: 250px 
+} 
+}
 @media only screen and (max-width:1440px){
 .hausimg__cover{
     height:490px;
-    margin-bottom:165px ;
+
 }}
 @media only screen and (max-width:1552px){
 .heusehome2{
@@ -352,7 +380,7 @@ overflow-y:hidden !important;
     width: 1165px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 300px
+    margin-bottom: 300px;
 }
 .wraperhause__test{
     display: flex;
@@ -373,17 +401,17 @@ h3{
     width:800px; 
     min-height:100px;
     max-height: 700px;
-    margin-bottom: 100px
+    margin-bottom: 130px
 }
 .heusehome2{
     position:relative;
     top: 180px
 }
 .mnogoygols{
-    position:absolute;
+    position:relative;
     width:100%;
     z-index:1;
-    top:1380px;
+    bottom: 310px
 }
 
 .mnogoygols__img .mnogoygols__mnogoygol{
