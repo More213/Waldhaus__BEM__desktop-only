@@ -262,22 +262,28 @@ overflow-y:hidden !important;
     margin-left:30px;
     margin-top: 20px;
 }
-.hausimg{
+.wraper__hausimg{
+    width: 1110px;
+    height: 700px;
     position: relative;
-    right:140px ;
-    bottom: 50px;
-    max-width: 100%;
+    padding-bottom:80px;
+}
+.hausimg__cover{
     z-index: -1;
-    background-size:content;
+    background-size:cover;
 }
 
-@media only screen and (max-width:1915px){
-.hausimg{
-    max-width: 90%;
+@media only screen and (max-width:2250px){
+.wraper__hausimg{
+    right: 90px;
+    width:99%;
+    height: 700px;
+    
+}
+.hausimg__cover{
     top: 10px;
-    left: 10px;
     height: 624px;
-   margin-bottom:165px ;
+    margin-bottom:165px ;
     
 }}
 @media only screen and (max-width:1552px){
