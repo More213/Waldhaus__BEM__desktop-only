@@ -26,6 +26,9 @@ overflow-x:hidden !important;
 .body{
 overflow-y:hidden !important;
 }
+.foot3{
+    display: block;
+}
 .backgraund__image{
     width:100%;
     z-index: -1;
